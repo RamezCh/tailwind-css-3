@@ -11,3 +11,7 @@ function Username() {
 }
 
 export default Username;
+
+/*
+hidden is display: none
+*/

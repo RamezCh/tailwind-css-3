@@ -6,8 +6,8 @@ function Home() {
   const username = useSelector((state) => state.user.username);
 
   return (
-    <div className="">
-      <h1 className="text-center text-xl font-semibold">
+    <div className="my-10 text-center">
+      <h1 className="mb-8 text-xl font-semibold">
         The best pizza.
         <br />
         <span className="text-yellow-500">
@@ -35,4 +35,9 @@ bg-name-intensity
 text-position (left, center, right)
 text-size (xs, sm, base, lg ,xl till 9xl)
 font-weight(thin, extralight, light, normal, medium, semibold, bold..)
+
+mx-0 is margin left & right (0 is 0px)
+my-0 is margin top & bottom
+mt, mr, mb, ml (top, right, bottom, left)
+m-auto (margin auto)
 */
