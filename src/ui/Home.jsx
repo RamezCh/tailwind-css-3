@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div className="">
-      <h1 className="text-center text-xl font-semibold text-stone-700">
+      <h1 className="text-center text-xl font-semibold">
         The best pizza.
         <br />
         <span className="text-yellow-500">
@@ -32,4 +32,7 @@ export default Home;
 text-color-intensity
 text-property (inherit, transparent)
 bg-name-intensity
+text-position (left, center, right)
+text-size (xs, sm, base, lg ,xl till 9xl)
+font-weight(thin, extralight, light, normal, medium, semibold, bold..)
 */
