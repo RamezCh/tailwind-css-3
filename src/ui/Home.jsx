@@ -6,7 +6,7 @@ function Home() {
   const username = useSelector((state) => state.user.username);
 
   return (
-    <div className="my-10 text-center">
+    <div className="my-10 text-center sm:my-16">
       <h1 className="mb-8 text-xl font-semibold">
         The best pizza.
         <br />
@@ -40,4 +40,11 @@ mx-0 is margin left & right (0 is 0px)
 my-0 is margin top & bottom
 mt, mr, mb, ml (top, right, bottom, left)
 m-auto (margin auto)
+
+Tailwind has 5 break points
+sm min-width: 640px
+md min-width: 768px
+lg min-width: 1024px
+xl min-width: 1280px
+2xl min-width: 1536px
 */
