@@ -10,8 +10,8 @@ function CartOverview() {
   if (!totalCartQuantity) return null;
 
   return (
-    <div>
-      <p>
+    <div className="bg-stone-800 text-stone-200">
+      <p className="text-stone-300">
         <span>{totalCartQuantity} pizzas</span>
         <span>{formatCurrency(totalCartPrice)}</span>
       </p>

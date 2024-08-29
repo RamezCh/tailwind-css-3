@@ -4,7 +4,7 @@ import Username from '../features/user/Username';
 
 function Header() {
   return (
-    <header className="">
+    <header className="bg-yellow-500">
       <Link to="/" className="">
         Fast React Pizza Co.
       </Link>

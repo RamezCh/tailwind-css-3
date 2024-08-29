@@ -7,10 +7,12 @@ function Home() {
 
   return (
     <div className="">
-      <h1 className="text-center text-xl font-semibold text-yellow-500">
+      <h1 className="text-center text-xl font-semibold text-stone-700">
         The best pizza.
         <br />
-        <span className="">Straight out of the oven, straight to you.</span>
+        <span className="text-yellow-500">
+          Straight out of the oven, straight to you.
+        </span>
       </h1>
 
       {username === '' ? (
@@ -25,3 +27,9 @@ function Home() {
 }
 
 export default Home;
+
+/*
+text-color-intensity
+text-property (inherit, transparent)
+bg-name-intensity
+*/
