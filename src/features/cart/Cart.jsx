@@ -14,12 +14,7 @@ function Cart() {
 
   return (
     <div>
-      <LinkButton
-        className="text-sm text-blue-500 hover:text-blue-600 hover:underline"
-        to="/menu"
-      >
-        &larr; Back to menu
-      </LinkButton>
+      <LinkButton to="/menu">&larr; Back to menu</LinkButton>
 
       <h2>Your cart, {username}</h2>
 
