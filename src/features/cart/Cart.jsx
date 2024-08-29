@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { clearCart, getCart } from './cartSlice';
 
 function Cart() {
-  const username = useSelector(state => state.user.username);
+  const username = useSelector((state) => state.user.username);
   const cart = useSelector(getCart);
   const dispatch = useDispatch();
 
@@ -14,12 +14,17 @@ function Cart() {
 
   return (
     <div>
-      <LinkButton to="/menu">&larr; Back to menu</LinkButton>
+      <LinkButton
+        className="text-sm text-blue-500 hover:text-blue-600 hover:underline"
+        to="/menu"
+      >
+        &larr; Back to menu
+      </LinkButton>
 
       <h2>Your cart, {username}</h2>
 
       <ul>
-        {cart.map(item => (
+        {cart.map((item) => (
           <CartItem item={item} key={item.pizzaId} />
         ))}
       </ul>
