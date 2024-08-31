@@ -4,7 +4,9 @@ import MenuItem from './MenuItem';
 
 function Menu() {
   const menu = useLoaderData();
-
+  // Divide creates line between child elements
+  // If you use space it will ruin line from divide
+  // That is why we use padding
   return (
     <ul className="divide-y divide-stone-200 px-2">
       {menu.map((pizza) => (

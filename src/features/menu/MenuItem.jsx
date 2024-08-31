@@ -23,7 +23,10 @@ function MenuItem({ pizza }) {
     };
     dispatch(addItem(newItem));
   }
-
+  // grayscale is sold out effect, looks worn out
+  // capitalize makes first letter big
+  // uppercase makes entire word big
+  // grow is flex-grow, defines how much element grows in relation to other flexible items inside parent element (used when available space exceeds the combined size of all items)
   return (
     <li className="flex gap-4 py-2">
       <img
